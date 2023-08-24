@@ -33,7 +33,7 @@ h1 {
 .box2{
   width: 200px;
   height: 200px;
-  background: red;
+  background: purple;
   margin: 20px;
   box-sizing: border-box;
   font-size: 50px
@@ -41,7 +41,7 @@ h1 {
 .box3{
   width: 200px;
   height: 200px;
-  background: red;
+  background: green;
   margin: 20px;
   box-sizing: border-box;
   font-size: 50px
@@ -73,3 +73,26 @@ h1 {
     width: 90%;
   }
 } */
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+  color: green;
+}
+
+h5{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+}
+.container2{
+  width: 100%;
+  height: auto;
+
+  /* add flexbox*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
