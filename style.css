@@ -10,7 +10,7 @@ h1 {
 .container{
   width: 100%;
   height: auto;
-  background: #1e8fcb;
+  /* background: #1e8fcb; */
 
   /* add flexbox*/
 
@@ -20,31 +20,44 @@ h1 {
   flex-flow: wrap;
 }
 
-.box1{
+#box1{
   width: 200px;
   height: 200px;
-  background: red;
+  background: #b84a62;
   margin: 20px;
   box-sizing: border-box;
   font-size: 50px;
+  border: solid;
+  border-color: #4c243b;
   
 }
+/* styles.css */
 
-.box2{
+.box1.changed {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+}
+
+
+#box2{
   width: 200px;
   height: 200px;
   background: purple;
   margin: 20px;
   box-sizing: border-box;
-  font-size: 50px
+  font-size: 50px;
+  border: dotted;
+  
 }
-.box3{
+#box3{
   width: 200px;
   height: 200px;
   background: green;
   margin: 20px;
   box-sizing: border-box;
-  font-size: 50px
+  font-size: 50px;
+  border: solid;
+  border-color: #eac4d5
 }
 
 /* add responsive media quaries
@@ -86,6 +99,31 @@ h5{
   color: red;
 }
 .container2{
+  width: 100%;
+  height: auto;
+
+  /* add flexbox*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.container3 {
+  width: 100%;
+  height: auto;
+
+  /* add flexbox*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+.container4 {
   width: 100%;
   height: auto;
 
