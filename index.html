@@ -11,29 +11,30 @@
   <h4>Bootstrap and JS/Query Worksheet</h4>
   <h1>Week 0 Class Work</h1>
   <div class="container">
-    <div id="box1" class="box"></div>
-    <div id="box2" class="box"></div>
-    <div id="box3" class="box"></div>
+    <div id="box1" class="box" ></div>
+    <div id="box2" class="box" ></div>
+    <div id="box3" class="box" ></div>
   </div>
   <h3>Change Buttons</h3>
   <div class="container2">
   <button onclick="changeColor(1)">Change Box 1</button>
   <button onclick="changeColor(2)">Change Box 2</button>
   <button onclick="changeColor(3)">Change Box 3</button>
-  <button onclick="changeAllColors()">Change All</button>
+  <button onclick="changeAllColors()">Change All</button> 
 </div>
 </div>
 <h5>Hide Buttons</h5>
 <div class="container3">
-<button class="btnhide1">Hide Box 1</button>
-<button class="btnhide2">Hide Box 2</button>
-<button class="btnhide3">Hide Box 3</button>
-<button class="btnhide1">Hide All</button>
+  <button onclick="hideBox(1)">Hide Box 1</button>
+  <button onclick="hideBox(2)">Hide Box 2</button>
+  <button onclick="hideBox(3)">Hide Box 3</button>
+  <button onclick="hideAllBoxes()">Hide All Boxes</button>
 </div>
 <div>
   <div class="container4">
-    <button class="btnreset1">Reset Colors</button>
-    <button class="btnshow2">Show All</button>
+    <button id="reset-button">Reset Colors</button>
+    <button id="showAllButton">Show All</button>
+
 </div>
 </body>
 </html>
